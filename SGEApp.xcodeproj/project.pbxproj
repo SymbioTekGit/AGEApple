@@ -12,6 +12,8 @@
 		E476B4292D041BC200F05DA0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E476B4282D041BC200F05DA0 /* Item.swift */; };
 		E476B42B2D041BC500F05DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E476B42A2D041BC500F05DA0 /* Assets.xcassets */; };
 		E476B42F2D041BC500F05DA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E476B42E2D041BC500F05DA0 /* Preview Assets.xcassets */; };
+		E476B4372D041C3A00F05DA0 /* BoxWorldMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E476B4362D041C3A00F05DA0 /* BoxWorldMainView.swift */; };
+		E476B4392D041CB600F05DA0 /* BoxWorldGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E476B4382D041CB600F05DA0 /* BoxWorldGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E476B42A2D041BC500F05DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E476B42C2D041BC500F05DA0 /* SGEApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SGEApp.entitlements; sourceTree = "<group>"; };
 		E476B42E2D041BC500F05DA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E476B4362D041C3A00F05DA0 /* BoxWorldMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxWorldMainView.swift; sourceTree = "<group>"; };
+		E476B4382D041CB600F05DA0 /* BoxWorldGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxWorldGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				E476B4242D041BC200F05DA0 /* SGEAppApp.swift */,
-				E476B4262D041BC200F05DA0 /* ContentView.swift */,
-				E476B4282D041BC200F05DA0 /* Item.swift */,
+				E476B4362D041C3A00F05DA0 /* BoxWorldMainView.swift */,
+				E476B4382D041CB600F05DA0 /* BoxWorldGameView.swift */,
+				E476B4352D041BDA00F05DA0 /* Default */,
 				E476B42A2D041BC500F05DA0 /* Assets.xcassets */,
 				E476B42C2D041BC500F05DA0 /* SGEApp.entitlements */,
 				E476B42D2D041BC500F05DA0 /* Preview Content */,
@@ -70,6 +75,15 @@
 				E476B42E2D041BC500F05DA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E476B4352D041BDA00F05DA0 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				E476B4262D041BC200F05DA0 /* ContentView.swift */,
+				E476B4282D041BC200F05DA0 /* Item.swift */,
+			);
+			path = Default;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +158,9 @@
 			files = (
 				E476B4272D041BC200F05DA0 /* ContentView.swift in Sources */,
 				E476B4292D041BC200F05DA0 /* Item.swift in Sources */,
+				E476B4392D041CB600F05DA0 /* BoxWorldGameView.swift in Sources */,
 				E476B4252D041BC200F05DA0 /* SGEAppApp.swift in Sources */,
+				E476B4372D041C3A00F05DA0 /* BoxWorldMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

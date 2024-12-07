@@ -10,6 +10,7 @@ import SwiftData
 
 @main
 struct SGEAppApp: App {
+    /* Default
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -22,11 +23,17 @@ struct SGEAppApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+     */
 
     var body: some Scene {
+        WindowGroup {
+            BoxWorldGameView()
+        }
+        /* Default
         WindowGroup {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
+         */
     }
 }
